@@ -13,17 +13,14 @@ body {
     line-height: 1.5em;
     background-color: #F0F2F3;
     font: 8px/1 sans-serif;
-    color: black;
 }
 
 
 /*------------------ nav -------------------------*/
 
 nav {
-    padding: 1em;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    margin-bottom: 2em;
+    padding: 3em;
+    margin-bottom: 3em;
     margin: auto;
     max-width: 90%;
 }
@@ -37,13 +34,9 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 30px;
     color: grey;
-}
-
-nav a:hover {
-    border-bottom: none;
 }
 
 a {
@@ -53,7 +46,6 @@ a {
 }
 
 a:hover {
-    color: indianred;
-    text-decoration: 1px dotted;
+    color: white;
 }
 
