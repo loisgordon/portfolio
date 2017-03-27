@@ -2,5 +2,5 @@
 
 
 
-### [Lois Gordon](https://loisgordon.github.io/portfolio/portfolio.html)
+### [Lois Gordon](https://loisgordon.github.io/portfolio/index.html)
 
