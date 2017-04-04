@@ -1,5 +1,4 @@
 /*------------------ css reset -------------------------*/
-
 * {
     margin: 0;
     font-size: 100%;
@@ -11,18 +10,34 @@ body {
     max-width: 100%;
     margin: auto;
     line-height: 1.5em;
-    background-color: #F0F2F3;
+    background-color: ghostwhite;
     font: 8px/1 sans-serif;
+    color: black;
+}
+
+section {
+    background-color: aqua;
 }
 
 
-/*------------------ nav -------------------------*/
+/*-------- logo ---------*/
+#logo {
+    width: 7em;
+    padding: 4em 1em 1em 9em;
+    margin: auto;
+    max-width: 98%;
+    float: left;
+}
+
+
+
+/*------- nav ---*/
 
 nav {
-    padding: 3em;
-    margin-bottom: 3em;
+    padding: 7.5em 10em 1em 3em;
     margin: auto;
-    max-width: 90%;
+    max-width: 98%;
+    float: right;
 }
 
 nav ul {
@@ -34,9 +49,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin: 30px;
-    color: grey;
 }
 
 a {
@@ -48,4 +62,14 @@ a {
 a:hover {
     color: white;
 }
+
+
+/*------------------- typography ------------------------*/
+
+
+
+
+
+
+
 
