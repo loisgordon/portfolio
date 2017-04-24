@@ -10,20 +10,18 @@ body {
     max-width: 100%;
     margin: auto;
     line-height: 1.5em;
-    background-color: ghostwhite;
-    font: 8px/1 sans-serif;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
     color: black;
-}
-
-section {
-    background-color: aqua;
+    float: left;
 }
 
 
 /*-------- logo ---------*/
 #logo {
     width: 7em;
-    padding: 4em 1em 1em 9em;
+    padding: 4em 1em 1em 7em;
     margin: auto;
     max-width: 98%;
     float: left;
@@ -31,19 +29,21 @@ section {
 
 
 
+
 /*------- nav ---*/
 
 nav {
-    padding: 7.5em 10em 1em 3em;
+    padding: 7em 10em 3em 3em;
     margin: auto;
-    max-width: 98%;
+    max-width: 100%;
     float: right;
+
 }
 
 nav ul {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1em;
     letter-spacing: 1.5px;
     margin: .25em;
 }
@@ -66,10 +66,72 @@ a:hover {
 
 /*------------------- typography ------------------------*/
 
+/*
+p {
+    font-size: 1em;
+    line-height: 1.65em;
+    max-width: 100%;
+    text-align: left;
+    margin: auto;
+    position: relative;
+}
+*/
 
+.about {
+    
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color:#D3D3D3;
+    font-size: 1.75em;
+    padding-bottom: 5em;
+    float: left;
+}
 
+section.about h1 {
+    line-height: 1.65em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+section.about h2 {
+    line-height: 1.65em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    
+}
 
+.work  {
+    
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color:white;
+    font-size: 1.75em;
+    padding-bottom: 5em;
+    float: left;
+}
 
-
-
-
+section.work h1 {
+    line-height: 1.65em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
