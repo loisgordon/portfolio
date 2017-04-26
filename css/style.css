@@ -53,7 +53,7 @@ nav ul li {
 a {
     color: black;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Oswald', sans-serif;
 }
 
 a:hover {
@@ -112,11 +112,12 @@ section.about {
 
 section.about h2 {
     line-height: 1.65em;
+    letter-spacing: .01em;
     max-width: 100%;
     text-align: center;
     margin: auto;
     font-size: .75em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: normal;
     color: white;
 }
@@ -138,7 +139,7 @@ section.work h1 {
     margin: auto;
     padding-top: 1em;
     font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: black;
 }
 
@@ -165,9 +166,7 @@ img {
 
 .gallery > div > img {
     width: 250px;
-    transition: .1s transform;
-    transform: translateZ(0);
-    /* hack */
+    transition: .1s;
 }
 
 .gallery > div:hover {
@@ -176,7 +175,8 @@ img {
 
 .gallery > div:hover > img {
     transform: scale(1.5, 1.5);
-    transition: .3s transform;
+    transition: .3s 
+    
 }
 
 .cf:before,
@@ -200,4 +200,5 @@ img {
     font-size: 1.75em;
     padding-bottom: 6em;
     float: left;
+    font-family: 'Oswald', sans-serif;
 }
