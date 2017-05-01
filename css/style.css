@@ -53,7 +53,7 @@ nav ul li {
 a {
     color: black;
     text-decoration: none;
-   font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 a:hover {
@@ -175,8 +175,7 @@ img {
 
 .gallery > div:hover > img {
     transform: scale(1.5, 1.5);
-    transition: .3s 
-    
+    transition: .3s
 }
 
 .cf:before,
@@ -190,15 +189,45 @@ img {
     clear: both;
 }
 
+
 /*----- Footer -----*/
+
+
 /*------ social media links ----*/
+
 .contact {
     width: 100%;
     line-height: 1em;
     margin: auto;
     background-color: #FFA500;
     font-size: 1.75em;
-    padding-bottom: 6em;
+    padding-bottom: 4em;
+    padding-top: 2em;
     float: left;
     font-family: 'Oswald', sans-serif;
+}
+
+section.contact h1 {
+    line-height: 1em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+section.contact li {
+    text-align: center;
+    display: inline;
+    margin: auto;
+    max-width: 100%;
+}
+
+section.contact img {
+    display: inline;
+    align-content: center;
+    margin: auto;
+    max-height: 5em;
+    max-width: 5em;
 }
