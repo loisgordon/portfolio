@@ -197,8 +197,12 @@ section.contact ul {
   display: flex;
   justify-content: center;
     padding-top: 20px;
-    padding-right: 2em
+    padding-right: 2.5em;
     
+}
+section.contact img {
+        max-height: 5em;
+        max-width: 5em;
 }
     
 
