@@ -193,27 +193,13 @@ section.contact li {
     display: inline;
 }
 
-section.contact img {
-    display: inline;
-    margin: auto;
-    text-align: center;
-    max-height: 5em;
-    max-width: 5em;
-    padding: 5px;
+section.contact ul {
+  display: flex;
+  justify-content: center;
+    padding-top: 20px
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-\
+    
 
 
 
