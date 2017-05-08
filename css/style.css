@@ -206,39 +206,3 @@ section.contact img {
       
 }
 
-
-    
-/*--tablet--*/
-@media (max-width: 1000px) {
-    
-    
-    
-  body{
-/*    background-color: #8080ff;*/
-    width: 100%;
-    
-    }
-
-    article p {
-        margin-left: 6em;
-        margin-right: 6em;
-    }
-    
-  /*--smartphone--*/
-  @media (max-width: 500px) {
-    article p {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-      nav ul {text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-}
-nav ul li {
-  display: inline;
-  margin: 3px;
-
-  }
-
-
-
