@@ -255,3 +255,11 @@ p {  line-height: 1.65em;
     max-width: 25em;
     padding: .5em;
 }
+.brandguidelines a{
+    color: black;
+    text-decoration: none;
+}
+.brandguidelines a:hover {
+    color: #ffa500;
+    text-decoration: none;
+}
