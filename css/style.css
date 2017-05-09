@@ -114,6 +114,18 @@ section.work h1 {
     font-family: 'Oswald', sans-serif;
     color: black;
 }
+section.work h2 {
+    line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: .75em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: gray;
+    padding-top: .5em;
+}
 
 img {
     max-width: 100%;
@@ -238,4 +250,8 @@ p {  line-height: 1.65em;
 .citybike {
     padding-bottom: .5em;
 }
-
+.citybike img {
+    max-height: 19em;
+    max-width: 25em;
+    padding: .5em;
+}
