@@ -255,6 +255,10 @@ p {  line-height: 1.65em;
     max-width: 25em;
     padding: .5em;
 }
+
+.brandguidelines  {
+    padding-top: 1em;
+}
 .brandguidelines a{
     color: black;
     text-decoration: none;
