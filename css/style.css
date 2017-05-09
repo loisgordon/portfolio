@@ -218,3 +218,21 @@ section.contact img {
       
 }
 
+/*--- paragraphs ---*/
+
+p {  line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: .75em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: black;
+    
+}
+
+.visualmarque {
+    padding-bottom: .5em;
+}
+
